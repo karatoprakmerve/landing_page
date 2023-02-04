@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#395144;
+}
+
+.btn{
+    background-color:#395144;
+    color: #fff;
+    border-color: #395144;
+}
+
+.btn:hover{
+    background-color: #4E6C50;
+    transition: 0.5s;
+    border-color: #395144;
+}
+
+.btn2{
+    height: 35px;
+    width: 5em;
+    background-color:#395144;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-left: -10px;
+}
+
+.btn2:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+/* Navigation Menu*/
+.navbar-brand{
+    font-size: 2.1em;
+    color: #395144;
+    font-weight: 600;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    font-size: 1em;
+    margin-right: 2em;
+    margin-top: 1em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #395144;
+    color:#395144;
+}
+
+
+/*Main-Hero Section*/
+.main{
+
+    background: url(../images/banner.png)no-repeat; /* Image by <a href="https://www.freepik.com/free-psd/italian-restaurant-banner-template_10117075.htm#from_view=detail_serie">Freepik</a>*/
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.text-label{
+    margin: 30vh 0;
+}
+.text-label h1{
+    color:#395144;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.text-label p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*Best Products*/
+.products{
+    margin-top: 15vh;
+}
+.products h1{
+    color:#395144;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.card:hover{
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.65);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.65);
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.65);
+    transition: 0.5s ease-in-out;
+}
+
+/*About*/
+
+.about h1{
+    color:#395144;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/*Menu*/
+
+.menu h1{
+    color:#395144;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+
+/* Footer */
+.news{
+    background-color: #4E6C50;
+    color: #fff;
+}
+.news h1{
+    color: #fff;
+}
+
+
+.news input{
+    height: 35px;
+    width: 40%;
+}
+
+.news::placeholder{
+    color: #fff;
+}
+
+.news p{
+    margin: 0;
+}
+
+.news h6{
+    font-weight: 600;
+    color: #fff;
+}
+.fab{  /* Social Media Icon*/
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 0.5em;
+}
+
+
+@media only screen and (max-width: 425px) {
+    body {
+      background-color:#f7f1e0;
+      
+    }
+  }
